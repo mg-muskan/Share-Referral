@@ -44,4 +44,50 @@
         top: -36px;
     }
 
+    
+    
+    .referral-modal {
+        width: auto;
+    }
+    
+    .user-dashboard-referral-program {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .social-links-share-referral > a {
+        width: 35px;
+        height: 35px;
+        padding: 30px;
+        font-size: 30px;
+        border-radius: 50%;
+    }
+
+    .refer-share-link {
+        display: none;
+    }
+
+}
+
+@media (max-width : 450px) {
+    
+    .social-links-share-referral > a {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    
+    .social-links-share-referral > a {
+        padding: 10px;
+        font-size: 10px;
+    }
+    
+    .referral-notverified {
+        padding: 5px;
+    }
+
 }
