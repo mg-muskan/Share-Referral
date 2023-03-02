@@ -24,7 +24,7 @@ sharebtn.addEventListener('click', () => {
     if (navigator.share) {
         sharebtn.removeAttribute('data-bs-toggle');
         navigator.share ({
-            title: 'Share your referral',
+            title: 'Share this referral',
             url: 'https://referralLink.com'
         }).then(() => {
             console.log('Thanks for sharing!');
