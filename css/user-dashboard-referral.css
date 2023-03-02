@@ -323,5 +323,6 @@ body {
     color: #b30021;
     padding: 10px;
     border-radius: 5px;
+    white-space: nowrap;
     background-color: #d89383;
 }
